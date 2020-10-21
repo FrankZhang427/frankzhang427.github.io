@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frank Zhang</title>
+    <link>https://frankzhang427.github.io/</link>
+    <description>Recent content on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://frankzhang427.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving SIMBICON for Biped Animation</title>
+      <link>https://frankzhang427.github.io/project/improved_simbicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/improved_simbicon/</guid>
+      <description>Abstract Biped balance control strategy is difficult to design as biped locomotion suffers from high-dimensional action spaces, underactuated dynamics, and unstable joint controls. We propose a generalized balance control strategy that can synthesize robust biped walking locomotion. The generalization consists of two parts, a coordinated joint control and generalized ground height feedback. We also conduct principle component analysis on generated locomotion to further improve the state used in finite state machine.</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning in Financial Portfolio Management</title>
+      <link>https://frankzhang427.github.io/project/rl_fpm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/rl_fpm/</guid>
+      <description>Abstract Reinforcement learning techniques have raised attention from financial industry, especially by employing reinforcement learning in portfolio managements. In this project, we explored three state-of-art reinforcement learning algorithms, including policy gradient (PG), deep deterministic policy gradient (DDPG) and proximal policy optimization (PPO). The goal is to train an intelligent agent that can continuously trade in stock market by allocating on different assets. In the course of this project, we performed hyper-parameter tuning and feature selection for each algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Mini Games in Unity</title>
+      <link>https://frankzhang427.github.io/project/mini_games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/mini_games/</guid>
+      <description>Introduction I have implemented four interesting mini games for my modern computer game course. All four games were developed in Unity and require a version of 2018.2.8 at least to run properly.
+Maze Shooter This is a first-person shooter game in 3D. Players can move with WASD control, jump with space, and fire projectiles with F key. The view camera is controlled by mouse input. The terrain consists of 3 parts: a starting area, a destination area, and a dynamically generated maze connecting the two areas.</description>
+    </item>
+    
+    <item>
+      <title>Simulate Link State Routing Protocol</title>
+      <link>https://frankzhang427.github.io/project/simulatelsrp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/simulatelsrp/</guid>
+      <description>Abstract The goal of this project is to develop a pure user-space program which simulates the major functionalities of a routing device running a simplified Link State Routing protocol. To simulate the real-world network environment, you have to start multiple instances of the program, each of which connecting with (some of) others via socket. Each program instance represents a router or host in the simulated network space. Correspondingly, the links connecting the routers/hosts and the IP addresses identifying the routers/hosts are simulate by the in-memory data structures.</description>
+    </item>
+    
+    <item>
+      <title>Initialize Git with an existing project</title>
+      <link>https://frankzhang427.github.io/post/init_existing_project_git/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/post/init_existing_project_git/</guid>
+      <description>Initialize Git with an existing project Here are some steps to initialze an existing project on Github (Source):
+  Create a new repository on GitHub. You can also add a gitignore file, a readme and a licence if you want
+  Open Git Bash
+  Change the current working directory to your local project.
+  Initialize the local directory as a Git repository.
+git init  Add the files in your new local repository.</description>
+    </item>
+    
+    <item>
+      <title>Remove .DS_Store files from Git</title>
+      <link>https://frankzhang427.github.io/post/remove_ds_store/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/post/remove_ds_store/</guid>
+      <description>Remove .DS_Store files from Git It gets annoying when you see a .DS_Store file in every single directory after you push to a git repository. Luckily, we can use .gitignore to ignore them when you commit your changes. I found a pretty good solution on Stack Overflow:
+Remove existing files from the repository:
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatchAdd the line
+.DS_Storeto the file .</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://frankzhang427.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/about/</guid>
+      <description>My name is Zhiguo Zhang, also known as Frank. I was born in Dongying, China. I grew up in Dongying and went to McGill University for a Bachelor of Science degree in Honours Statistics and Computer Science, plus a Minor in Finance. Recently in February 2020, I obtained my Master of Science degree from School of Computer Science at McGill University under the supervision of Professor Paul G. Kry. My research interests are in computer graphics and animation, modern computer games, and applied machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Remove .DS_Store files from Git</title>
+        
+            <link rel="icon" href="https://frankzhang427.github.io/img/favicon.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: purple;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://frankzhang427.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.65.3" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162798140-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-162798140-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+<link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Remove .DS_Store files from Git</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/post/">Cheatsheet</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                            
+                                <li class="navbar-icon"><a ><i class="fa fa-moon-o" id="dark-mode-toggle"></i></a></li>
+                            
+                            
+                                <li class="navbar-icon"><a href="mailto:zhiguozhangfrank@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/frankzhang427/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/1093863886"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/frank-zhang-b4204ba3/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://math.stackexchange.com/users/221734/franky?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Remove .DS_Store files from Git</h2>
+        <h5>April 4, 2020</h5>
+        
+<a href="https://frankzhang427.github.io/tags/git"><kbd class="item-tag">git</kbd></a>
+
+<a href="https://frankzhang427.github.io/tags/macos"><kbd class="item-tag">macOS</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><h2 id="remove-ds_store-files-from-git">Remove .DS_Store files from Git</h2>
+<p>It gets annoying when you see a <code>.DS_Store</code> file in every single directory after you push to a git repository. Luckily, we can use <code>.gitignore</code> to ignore them when you commit your changes. I found a pretty good solution on <a href="https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository">Stack Overflow</a>:</p>
+<p>Remove existing files from the repository:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+</code></pre></div><p>Add the line</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">.DS_Store
+</code></pre></div><p>to the file <code>.gitignore</code>, which can be found at the top level of your repository (or created if it isn&rsquo;t there already). You can do this easily with this command in the top directory</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo .DS_Store &gt;&gt; .gitignore
+</code></pre></div><p>Then</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add .gitignore
+git commit -m <span style="color:#e6db74">&#39;.DS_Store banished!&#39;</span>
+</code></pre></div><p>This is mainly for easing my own headaches, but I would like to share to anyone who needs it as well.</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/init_existing_project_git/">Initialize Git with an existing project</a></h4>
+    <h5>April 8, 2020</h5>
+    
+<a href="https://frankzhang427.github.io/tags/git"><kbd class="item-tag">git</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">Copyright © 2020 <a href="https://frankzhang427.github.io">Zhiguo Zhang</a>. All rights reserved.</p>
+        </footer>
+
+        
+
+<script src="/js/dark.js "></script>
+        
+    </body>
+
+</html>
+

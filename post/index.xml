@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheatsheets on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/post/</link>
+    <description>Recent content in Cheatsheets on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://frankzhang427.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Initialize Git with an existing project</title>
+      <link>https://frankzhang427.github.io/post/init_existing_project_git/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/post/init_existing_project_git/</guid>
+      <description>Initialize Git with an existing project Here are some steps to initialze an existing project on Github (Source):
+  Create a new repository on GitHub. You can also add a gitignore file, a readme and a licence if you want
+  Open Git Bash
+  Change the current working directory to your local project.
+  Initialize the local directory as a Git repository.
+git init  Add the files in your new local repository.</description>
+    </item>
+    
+    <item>
+      <title>Remove .DS_Store files from Git</title>
+      <link>https://frankzhang427.github.io/post/remove_ds_store/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/post/remove_ds_store/</guid>
+      <description>Remove .DS_Store files from Git It gets annoying when you see a .DS_Store file in every single directory after you push to a git repository. Luckily, we can use .gitignore to ignore them when you commit your changes. I found a pretty good solution on Stack Overflow:
+Remove existing files from the repository:
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatchAdd the line
+.DS_Storeto the file .</description>
+    </item>
+    
+  </channel>
+</rss>

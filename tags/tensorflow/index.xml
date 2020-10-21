@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensorflow on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/tensorflow/</link>
+    <description>Recent content in tensorflow on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Reinforcement Learning in Financial Portfolio Management</title>
+      <link>https://frankzhang427.github.io/project/rl_fpm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/rl_fpm/</guid>
+      <description>Abstract Reinforcement learning techniques have raised attention from financial industry, especially by employing reinforcement learning in portfolio managements. In this project, we explored three state-of-art reinforcement learning algorithms, including policy gradient (PG), deep deterministic policy gradient (DDPG) and proximal policy optimization (PPO). The goal is to train an intelligent agent that can continuously trade in stock market by allocating on different assets. In the course of this project, we performed hyper-parameter tuning and feature selection for each algorithm.</description>
+    </item>
+    
+  </channel>
+</rss>

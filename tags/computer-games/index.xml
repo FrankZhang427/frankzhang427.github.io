@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Games on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/computer-games/</link>
+    <description>Recent content in Computer Games on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/computer-games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mini Games in Unity</title>
+      <link>https://frankzhang427.github.io/project/mini_games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/mini_games/</guid>
+      <description>Introduction I have implemented four interesting mini games for my modern computer game course. All four games were developed in Unity and require a version of 2018.2.8 at least to run properly.
+Maze Shooter This is a first-person shooter game in 3D. Players can move with WASD control, jump with space, and fire projectiles with F key. The view camera is controlled by mouse input. The terrain consists of 3 parts: a starting area, a destination area, and a dynamically generated maze connecting the two areas.</description>
+    </item>
+    
+  </channel>
+</rss>

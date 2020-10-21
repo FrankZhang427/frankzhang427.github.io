@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/java/</link>
+    <description>Recent content in java on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving SIMBICON for Biped Animation</title>
+      <link>https://frankzhang427.github.io/project/improved_simbicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/improved_simbicon/</guid>
+      <description>Abstract Biped balance control strategy is difficult to design as biped locomotion suffers from high-dimensional action spaces, underactuated dynamics, and unstable joint controls. We propose a generalized balance control strategy that can synthesize robust biped walking locomotion. The generalization consists of two parts, a coordinated joint control and generalized ground height feedback. We also conduct principle component analysis on generated locomotion to further improve the state used in finite state machine.</description>
+    </item>
+    
+    <item>
+      <title>Simulate Link State Routing Protocol</title>
+      <link>https://frankzhang427.github.io/project/simulatelsrp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/simulatelsrp/</guid>
+      <description>Abstract The goal of this project is to develop a pure user-space program which simulates the major functionalities of a routing device running a simplified Link State Routing protocol. To simulate the real-world network environment, you have to start multiple instances of the program, each of which connecting with (some of) others via socket. Each program instance represents a router or host in the simulated network space. Correspondingly, the links connecting the routers/hosts and the IP addresses identifying the routers/hosts are simulate by the in-memory data structures.</description>
+    </item>
+    
+  </channel>
+</rss>

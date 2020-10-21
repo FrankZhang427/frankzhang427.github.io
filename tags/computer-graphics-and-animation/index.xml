@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Graphics and Animation on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/computer-graphics-and-animation/</link>
+    <description>Recent content in Computer Graphics and Animation on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/computer-graphics-and-animation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving SIMBICON for Biped Animation</title>
+      <link>https://frankzhang427.github.io/project/improved_simbicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/improved_simbicon/</guid>
+      <description>Abstract Biped balance control strategy is difficult to design as biped locomotion suffers from high-dimensional action spaces, underactuated dynamics, and unstable joint controls. We propose a generalized balance control strategy that can synthesize robust biped walking locomotion. The generalization consists of two parts, a coordinated joint control and generalized ground height feedback. We also conduct principle component analysis on generated locomotion to further improve the state used in finite state machine.</description>
+    </item>
+    
+  </channel>
+</rss>

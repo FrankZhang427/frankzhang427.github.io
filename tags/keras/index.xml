@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>keras on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/keras/</link>
+    <description>Recent content in keras on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/keras/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Classification on Modified MNIST Digits</title>
+      <link>https://frankzhang427.github.io/project/modified_mnist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/modified_mnist/</guid>
+      <description>Abstract This project aims to perform a classification task on the modified figures based on the MNIST dataset. Each figure contains two digits and an operator indicated by the first letter of the operation, i.e. ‘A’ or ‘a’ for addition and ‘M’ or ‘m’ for multiplication. Our task is to build a model that correctly predicts the result of the mathematical operation on each input figure. For this purpose, we have implemented a baseline logistic regression classifier, two fully connected feedforward neural networks and a convolutional neural network (CNN).</description>
+    </item>
+    
+  </channel>
+</rss>

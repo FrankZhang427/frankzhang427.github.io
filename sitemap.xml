@@ -15,6 +15,18 @@
   </url>
   
   <url>
+    <loc>https://frankzhang427.github.io/project/robust_cloth/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frankzhang427.github.io/project/distributed/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frankzhang427.github.io/project/particle_spring_2d/</loc>
+  </url>
+  
+  <url>
     <loc>https://frankzhang427.github.io/project/mini_games/</loc>
   </url>
   
@@ -62,6 +74,10 @@
   </url>
   
   <url>
+    <loc>https://frankzhang427.github.io/tags/animation/</loc>
+  </url>
+  
+  <url>
     <loc>https://frankzhang427.github.io/tags/c#/</loc>
   </url>
   
@@ -78,7 +94,7 @@
   </url>
   
   <url>
-    <loc>https://frankzhang427.github.io/tags/computer-graphics-and-animation/</loc>
+    <loc>https://frankzhang427.github.io/tags/distributed-system/</loc>
   </url>
   
   <url>
@@ -98,6 +114,14 @@
   </url>
   
   <url>
+    <loc>https://frankzhang427.github.io/tags/middleware/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frankzhang427.github.io/tags/opengl/</loc>
+  </url>
+  
+  <url>
     <loc>https://frankzhang427.github.io/tags/physically-based-simulation/</loc>
   </url>
   
@@ -111,6 +135,14 @@
   
   <url>
     <loc>https://frankzhang427.github.io/tags/reinforcement-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frankzhang427.github.io/tags/rmi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frankzhang427.github.io/tags/tcp/</loc>
   </url>
   
   <url>

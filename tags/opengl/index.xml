@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenGL on Frank Zhang</title>
+    <link>https://frankzhang427.github.io/tags/opengl/</link>
+    <description>Recent content in OpenGL on Frank Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://frankzhang427.github.io/tags/opengl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Robust Cloth Simulation with Constraints and Collision Detection</title>
+      <link>https://frankzhang427.github.io/project/robust_cloth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/robust_cloth/</guid>
+      <description>Abstract The goal of this project is to extend the idea of particle-spring system, constraints and collision detection into 3D by implementing a cloth simulator in 3D. The first step is to extend the existed functionalities from previous 2D version into 3D. The position and velocity of each particle at each time step are updated by Backward Euler integrator. Using an explicit integrator generally produces an unstable simulation for large time steps.</description>
+    </item>
+    
+    <item>
+      <title>Particle Spring System in 2D</title>
+      <link>https://frankzhang427.github.io/project/particle_spring_2d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankzhang427.github.io/project/particle_spring_2d/</guid>
+      <description>Abstract The goal of this project is to implement the idea of particle-spring system in 2D. The position and velocity of each particle at each time step are updated by symplectic Euler integrator. Collision detection and impulse response are also implemented. Several test cases are given in the application. An amusing pinball-puzzle is created based on this system.
+Pinball-Puzzle A pinball-puzzle is simulated in real time. Here is a sample puzzle.</description>
+    </item>
+    
+  </channel>
+</rss>

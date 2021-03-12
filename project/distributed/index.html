@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Distributed Travel Reservation System</title>
+        
+            <link rel="icon" href="https://frankzhang427.github.io/img/favicon.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: purple;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://frankzhang427.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.65.3" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162798140-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-162798140-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+<link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Distributed Travel Reservation System</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/post/">Cheatsheet</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                            
+                                <li class="navbar-icon"><a ><i class="fa fa-moon-o" id="dark-mode-toggle"></i></a></li>
+                            
+                            
+                                <li class="navbar-icon"><a href="mailto:zhiguozhangfrank@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/frankzhang427/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/1093863886"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/zhiguo-frank-zhang-b4204ba3/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://math.stackexchange.com/users/221734/franky?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        
+        
+            
+            
+                
+            
+        
+        <h2>Distributed Travel Reservation System</h2>
+
+        
+            
+            
+            
+            
+                <h5><a href="https://github.com/frankzhang427/COMP512-Project/"><strong><u>Code</u></strong></a> and <a href="https://frankzhang427.github.io/pdf/distributed.pdf"><strong><u>Report</u></strong></a></h5> 
+            
+        
+        <h5>Project for distributed system course</h5>
+        
+<a href="https://frankzhang427.github.io/tags/distributed-system"><kbd class="item-tag">Distributed System</kbd></a>
+
+<a href="https://frankzhang427.github.io/tags/middleware"><kbd class="item-tag">Middleware</kbd></a>
+
+<a href="https://frankzhang427.github.io/tags/tcp"><kbd class="item-tag">TCP</kbd></a>
+
+<a href="https://frankzhang427.github.io/tags/rmi"><kbd class="item-tag">RMI</kbd></a>
+
+<a href="https://frankzhang427.github.io/tags/java"><kbd class="item-tag">java</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><h2 id="abstract">Abstract</h2>
+<p>The goal of this project is to design and develop a component-based distributed travel reservation system. The concepts of distribution, coordination, scalability, and fault-tolerance are implemented in the system. This project focuses on backend design of the system, with minimal frontend interactive interface.</p>
+<h2 id="system-design">System Design</h2>
+<p>The system architecture is RMI-based with middleware server that supports multiple clients and multiple resource managers. The key components of middleware is the middleware process, a centralized lock manager, and a transaction manager. The middleware process handles RMI calls, provides client user interface, stores a database for client, and maintains resource manager proxy. The centralized lock manager handles lock conversion, response to transaction manager lock requests, and prevent deadlock by timeout mechanism. The transaction manager maintains a database for transactions by hashing, and also a transaction history stack for data recovery. The database shadowing and logging are also implemented to provide crush recovery. Two Phase Commit protocol is applied to maintain the consistency of database and transactions. The concurrency control is achieved by Two Phase Lock in addition to Two Phase Commit. The system is very robust and consistent. In the event of any component disconnection or crush, the system still maintains the integrity and consistency and can be recovered efficiently and effectively. The system also scales well for large amount of clients and load injection. Despite of middleware design, it is not a bottleneck of the system. Here is an overview of the RMI-based distributed system with middleware.</p>
+
+
+
+
+
+<img src="/project/distributed/rmi_hua204d0e7b12b5059e03b49f6671ea1c6_172462_750x750_fit_box_2.png" width="750" height="644" alt="System Design">
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">Copyright © 2020-2021 <a href="https://frankzhang427.github.io">Zhiguo Zhang</a>. All rights reserved.</p>
+        </footer>
+
+        
+
+<script src="/js/dark.js "></script>
+        
+    </body>
+
+</html>
+
